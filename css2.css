@@ -1,1 +1,41 @@
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.accolade1 {
+  padding: 40px;
+  margin: 40px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: goldenrod;
+  background-color: gold;
+}
+
+.accolade2 {
+  padding: 40px;
+  margin: 40px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: blue;
+  background-color: lightskyblue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 6px 4px;
+}
+
+li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
